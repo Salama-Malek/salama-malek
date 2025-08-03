@@ -1,7 +1,9 @@
 import React from 'react';
 import parser from 'html-react-parser';
+import { useTranslation } from 'react-i18next';
 
 export default function Modal({ modalData }) {
+  const { t } = useTranslation();
   const { thumbUrl, details } = modalData;
   const { title, description, type, langages, platform, country, url } =
     details;
@@ -19,31 +21,31 @@ export default function Modal({ modalData }) {
               <ul>
                 {type && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Type:</span>
+                    <span className="col-4 col-lg-3">{t('modal.type')}:</span>
                     <span>{type}</span>
                   </li>
                 )}
                 {langages && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Langages:</span>
+                    <span className="col-4 col-lg-3">{t('modal.languages')}:</span>
                     <span>{langages}</span>
                   </li>
                 )}
                 {platform && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Platform:</span>
+                    <span className="col-4 col-lg-3">{t('modal.platform')}:</span>
                     <span>{platform}</span>
                   </li>
                 )}
                 {country && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Country:</span>
+                    <span className="col-4 col-lg-3">{t('modal.country')}:</span>
                     <span>{country}</span>
                   </li>
                 )}
                 {url && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Live URL:</span>
+                    <span className="col-4 col-lg-3">{t('modal.url')}:</span>
                     <span>{url}</span>
                   </li>
                 )}

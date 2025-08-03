@@ -1,0 +1,270 @@
+{
+  "header": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über mich",
+      "projects": "Projekte",
+      "services": "Dienstleistungen",
+      "contact": "Kontakt"
+    },
+    "cta": "Kontaktieren"
+  },
+  "footer": {
+    "copyright": "© 2023 Alle Rechte vorbehalten"
+  },
+  "modal": {
+    "type": "Typ",
+    "languages": "Sprachen",
+    "platform": "Plattform",
+    "country": "Land",
+    "url": "Link"
+  },
+  "contactForm": {
+    "nameLabel": "Ihr Name",
+    "namePlaceholder": "Name *",
+    "emailLabel": "Ihre E-Mail",
+    "emailPlaceholder": "E-Mail *",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Betreff *",
+    "messageLabel": "Ihre Nachricht",
+    "messagePlaceholder": "Ihre Nachricht *",
+    "send": "Nachricht senden",
+    "sending": "Senden..."
+  },
+  "homePage": {
+    "hero": {
+      "imgUrl": "/images/home-banner.png",
+      "name": "Salama Malek",
+      "heading": "Hallo! Ich bin Salama",
+      "typingText": ["Ich bin Entwickler", 1500, "Ich bin Freiberufler", 1500],
+      "description": "ITI-Absolvent und versierter Full-Stack-Webentwickler mit Leidenschaft für Softwareentwicklung. Suche Einstiegspositionen, um technische Expertise im MEAN-Stack, in der Back- und Frontend-Programmierung sowie in der mobilen App-Entwicklung einzusetzen.",
+      "btnText": "Kontakt aufnehmen",
+      "btnUrl": "contactus"
+    },
+    "socialBtns": [
+      { "icon": "fa-brands:github", "iconBgClass": "github", "href": "https://github.com/Salama-Malek" },
+      { "icon": "fa-brands:khamsat", "iconBgClass": "khamsat", "href": "https://khamsat.com/user/salamamalek" },
+      { "icon": "fa-brands:linkedin-in", "iconBgClass": "linkedin", "href": "https://www.linkedin.com/in/salama-malek" }
+    ],
+    "brands": [
+      { "src": "/images/brand-1.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-2.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-1.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-2.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-1.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-2.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-1.svg", "alt": "Logolpsum" },
+      { "src": "/images/brand-2.svg", "alt": "Logolpsum" }
+    ],
+    "about": {
+      "imgSrc": "/images/about-banner.png",
+      "miniTitle": "Über mich",
+      "title": "ICH BIN FÜR <span>FULL STACK</span>-PROJEKTE VERFÜGBAR",
+      "description": "ITI-Absolvent und qualifizierter Full-Stack-Webentwickler mit dem Ziel, innovative Lösungen zu liefern und Wachstum in dynamischen, kollaborativen Umgebungen zu fördern. Ich spezialisiere mich auf den MEAN-Stack, bin aber auch in anderen Technologien wie Laravel, Ruby on Rails und Django versiert.",
+      "funfacts": [
+        { "title": "Programmiersprachen", "number": 5 },
+        { "title": "Jahre Erfahrung", "number": 2 },
+        { "title": "Frameworks", "number": 7 }
+      ],
+      "btnText": "Kontakt aufnehmen",
+      "btnUrl": "contactus"
+    },
+    "projects": {
+      "sectionHeading": {
+        "miniTitle": "Meine Arbeit",
+        "title": "NEUESTE PROJEKTE"
+      },
+      "allProjects": [
+        {
+          "thumbUrl": "/images/popup-project-1.jpg",
+          "title": "MEAN-Stack-Anwendung",
+          "subTitle": "Webentwicklung, Full Stack",
+          "details": {
+            "title": "E-Commerce-Plattform mit MEAN-Stack",
+            "description": "Entwickelte eine funktionsreiche E-Commerce-Plattform mit MongoDB, Express.js, Angular und Node.js. Implementierte Benutzeranmeldung, Produktkatalog, Warenkorb und Zahlungsabwicklung.",
+            "type": "Webanwendung",
+            "langages": "JavaScript, TypeScript, HTML, CSS",
+            "platform": "MEAN Stack",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-2.jpg",
+          "title": "React-Native-Mobile-App",
+          "subTitle": "Mobile Entwicklung, Front-End",
+          "details": {
+            "title": "Plattformübergreifende Mobile Anwendung",
+            "description": "Erstellte eine plattformübergreifende Mobile App mit React Native, die Nutzern erlaubt, Fitnessziele zu verfolgen, Workouts aufzuzeichnen und sich mit Trainern zu verbinden.",
+            "type": "Mobile Anwendung",
+            "langages": "JavaScript, React Native",
+            "platform": "iOS, Android",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-3.jpg",
+          "title": "Dashboard-Design",
+          "subTitle": "Webentwicklung, Front-End",
+          "details": {
+            "title": "Admin-Dashboard für Content-Management",
+            "description": "Erstellte ein intuitives Admin-Dashboard mit Angular zur Content-Verwaltung, einschließlich Benutzerverwaltung, Inhaltserstellung, Analysen und Reporting-Tools.",
+            "type": "Webanwendung",
+            "langages": "TypeScript, HTML, CSS, Angular",
+            "platform": "Web",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-4.jpg",
+          "title": "Laravel-Webanwendung",
+          "subTitle": "Webentwicklung, Back-End",
+          "details": {
+            "title": "Bildungsplattform mit Laravel",
+            "description": "Entwickelte eine Bildungsplattform mit Laravel, die Dozenten ermöglicht, Kurse zu erstellen, Lernmaterialien hochzuladen und mit Studenten zu interagieren.",
+            "type": "Webanwendung",
+            "langages": "PHP, HTML, CSS, JS",
+            "platform": "Laravel",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-5.jpg",
+          "title": "MERN-Stack-Blog",
+          "subTitle": "Webentwicklung, Full Stack",
+          "details": {
+            "title": "Blog-Plattform mit MERN-Stack",
+            "description": "Erstellte eine Blogging-Plattform mit MongoDB, Express.js, React und Node.js mit Benutzeranmeldung, Inhaltserstellung, Kommentarfunktion und Social Sharing.",
+            "type": "Webanwendung",
+            "langages": "JavaScript, React, Node.js",
+            "platform": "MERN Stack",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-6.jpg",
+          "title": "WordPress-Website",
+          "subTitle": "Webentwicklung, CMS",
+          "details": {
+            "title": "Unternehmenswebsite mit WordPress",
+            "description": "Entwarf und entwickelte eine Unternehmenswebsite mit WordPress sowie benutzerdefinierten Themes und Plugins, um spezifische Geschäftsanforderungen zu erfüllen.",
+            "type": "Website",
+            "langages": "PHP, HTML, CSS, JS",
+            "platform": "WordPress",
+            "country": "Ägypten",
+            "url": "www.example.com"
+          }
+        }
+      ]
+    },
+    "service": {
+      "sectionHeading": {
+        "miniTitle": "DIENSTLEISTUNGEN",
+        "title": "Entwicklungs-<span>services</span>, die ich anbiete"
+      },
+      "allService": [
+        {
+          "imgUrl": "/images/service-01.jpg",
+          "title": "Full-Stack-Entwicklung",
+          "subTitle": "Experte im MEAN-Stack – Aufbau kompletter Webanwendungen mit MongoDB, Express.js, Angular und Node.js.",
+          "icon": "bi:code-square",
+          "ratings": 5
+        },
+        {
+          "imgUrl": "/images/service-02.jpg",
+          "title": "Front-End-Entwicklung",
+          "subTitle": "Erstellung responsiver, interaktiver Benutzeroberflächen mit React, Angular, Vue.js und weiteren modernen Front-End-Technologien.",
+          "icon": "bi:laptop",
+          "ratings": 5
+        },
+        {
+          "imgUrl": "/images/service-03.jpg",
+          "title": "Mobile App Entwicklung",
+          "subTitle": "Entwicklung plattformübergreifender mobiler Anwendungen mit React Native mit Fokus auf Leistung und Nutzererlebnis.",
+          "icon": "bi:phone",
+          "ratings": 4.5
+        },
+        {
+          "imgUrl": "/images/service-04.jpg",
+          "title": "Content-Management",
+          "subTitle": "Implementierung von CMS-Lösungen mit WordPress und individuellen Themes und Plugins für spezifische Kundenanforderungen.",
+          "icon": "bi:file-earmark-text",
+          "ratings": 4.5
+        }
+      ]
+    },
+    "experience": {
+      "sectionHeading": {
+        "miniTitle": "Erfahrung",
+        "title": "Meine <span>Berufserfahrung</span>"
+      },
+      "allExperience": [
+        {
+          "designation": "Freiberuflicher Entwickler",
+          "company": "Khamsat | Remote",
+          "duration": "APRIL 2023 - GEGENWÄRTIG",
+          "jobType": "Freelance",
+          "companyTitle": "Über das Unternehmen",
+          "companyDescription": "Erfolgreich verschiedene Webentwicklungs- und Softwareprojekte auf Khamsat abgeschlossen und maßgeschneiderte digitale Lösungen mit Fokus auf Qualität, Kommunikation und Kundenzufriedenheit geliefert. Zusammenarbeit mit Kunden zur Anforderungserhebung, Entwicklung von Websites und Anwendungen in verschiedenen Technologien sowie fristgerechte Lieferung durch effiziente Prozesse und klare Kommunikation."
+        },
+        {
+          "designation": "Assistant Project Manager",
+          "company": "Intern in Moscow",
+          "duration": "NOV 2024 - JAN 2025",
+          "jobType": "Praktikum",
+          "companyTitle": "Über die Position",
+          "companyDescription": "Unterstützte Projektmanagement-Aufgaben, kombinierte Programmierkenntnisse mit Kundenkommunikation, um IT-Lösungen zu liefern. Zusammenarbeit mit Teams zur effizienten Erreichung von Projektmeilensteinen."
+        },
+        {
+          "designation": "Freiberuflicher Coach",
+          "company": "EYOUTH Learning Company",
+          "duration": "DEZ 2023 - JUN 2024",
+          "jobType": "Teilzeit",
+          "companyTitle": "Über die Position",
+          "companyDescription": "Führte Coachings durch, um IT-Studenten praktische Fähigkeiten in Programmierung und Entwicklungsframeworks zu vermitteln, inklusive Projektbetreuung und Karriereberatung."
+        }
+      ]
+    },
+    "testimonial": {
+      "sectionHeading": {
+        "miniTitle": "Referenzen",
+        "title": "Kunden-<span>Feedback</span> <br /> zu meiner Arbeit"
+      },
+      "allTestimonial": [
+        {
+          "reviewText": "Salama lieferte unsere Webanwendung pünktlich und in hervorragender Qualität. Sein Fachwissen im MEAN-Stack und sein Verständnis unserer Geschäftsanforderungen führten zu einem Produkt, das unsere Erwartungen übertraf. Sehr empfehlenswert für Webentwicklungsprojekte.",
+          "avatarImg": "/images/avatar-1.jpg",
+          "avatarName": "Ahmed Hassan",
+          "avatarCompany": "Tech Startup"
+        },
+        {
+          "reviewText": "Die Zusammenarbeit mit Salama war großartig. Er war reaktionsschnell, professionell und detailorientiert. Seine technischen Fähigkeiten sind beeindruckend, und er konnte Lösungen empfehlen, an die wir nicht gedacht hatten. Wir werden auf jeden Fall wieder mit ihm arbeiten.",
+          "avatarImg": "/images/avatar-2.jpg",
+          "avatarName": "Maria Ivanova",
+          "avatarCompany": "E-commerce Company"
+        },
+        {
+          "reviewText": "Als Coach hat Salama vielen unserer Studenten geholfen, praxisnahe Fähigkeiten zu entwickeln, die in der Branche sehr geschätzt werden. Sein Unterrichtsansatz kombiniert Theorie mit praktischen Projekten und führt zu besseren Jobchancen für unsere Absolventen.",
+          "avatarImg": "/images/avatar-3.jpg",
+          "avatarName": "Mahmoud Saleh",
+          "avatarCompany": "EYOUTH Learning"
+        }
+      ]
+    },
+    "contact": {
+      "sectionHeading": {
+        "title": "Lassen Sie uns Ihr Projekt besprechen",
+        "subTitle": "Verfügbar für Freelance-Arbeit, wenn das richtige Projekt kommt. Kontaktieren Sie mich, um Ihre Anforderungen an die Webentwicklung zu besprechen."
+      },
+      "contactImg": "/images/contact-us.png",
+      "contactInfo": [
+        { "title": "Schreiben Sie eine E-Mail", "email": "salamahassanein@gmail.com" },
+        { "title": "Rufen Sie mich direkt an", "tel": "+7 993 287 3992" }
+      ]
+    }
+  }
+}

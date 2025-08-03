@@ -1,4 +1,38 @@
 {
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "projects": "Projects",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "cta": "Let's Talk"
+  },
+  "footer": {
+    "copyright": "© 2023 copyright all right reserved"
+  },
+  "modal": {
+    "type": "Type",
+    "languages": "Languages",
+    "platform": "Platform",
+    "country": "Country",
+    "url": "Live URL"
+  },
+  "contactForm": {
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Name *",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "Email *",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Subject *",
+    "messageLabel": "Your message",
+    "messagePlaceholder": "Your message *",
+    "send": "Send Message",
+    "sending": "Sending..."
+  },
+  "homePage":
+{
   "hero": {
     "imgUrl": "/images/home-banner.png",
     "name": "Salama Malek",
