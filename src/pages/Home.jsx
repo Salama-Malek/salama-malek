@@ -1,15 +1,16 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Brands from '../components/Brands';
 import Projects from '../components/Projects';
 import Testimonial from '../components/Testimonial';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Service from '../components/Service';
-import HomePagdData from '../data/HomePagdData.json';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+  const { t } = useTranslation();
   const {
     hero,
     socialBtns,
@@ -20,7 +21,7 @@ export default function Home() {
     experience,
     testimonial,
     contact,
-  } = HomePagdData;
+  } = t('homePage', { returnObjects: true });
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />

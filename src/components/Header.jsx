@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -47,7 +50,7 @@ export default function Header() {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Home
+              {t('header.nav.home')}
             </ScrollLink>
           </li>
           <li>
@@ -59,7 +62,7 @@ export default function Header() {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              About Me
+              {t('header.nav.about')}
             </ScrollLink>
           </li>
           <li>
@@ -71,7 +74,7 @@ export default function Header() {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Projects
+              {t('header.nav.projects')}
             </ScrollLink>
           </li>
           <li>
@@ -83,7 +86,7 @@ export default function Header() {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Services
+              {t('header.nav.services')}
             </ScrollLink>
           </li>
           <li>
@@ -95,12 +98,13 @@ export default function Header() {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Contact
+              {t('header.nav.contact')}
             </ScrollLink>
           </li>
         </ul>
         {/* Top Menu */}
         <div className="d-flex">
+          <LanguageSwitcher />
           <ScrollLink
             to="contactus"
             spy={true}
@@ -110,7 +114,7 @@ export default function Header() {
             onClick={() => setMobileToggle(false)}
             className="px-btn d-none d-lg-inline-flex"
           >
-            Lets' Talk
+            {t('header.cta')}
           </ScrollLink>
           <button
             className="toggler-menu d-lg-none"
