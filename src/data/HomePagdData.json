@@ -1,0 +1,281 @@
+{
+  "hero": {
+    "imgUrl": "/images/home-banner.png",
+    "name": "Salama Malek",
+    "heading": "Hey! I'm Salama",
+    "typingText": ["I'm a Developer", 1500, "I'm a Freelancer", 1500],
+    "description": "ITI graduate and skilled Full Stack Web Developer with a passion for software development. Seeking entry-level opportunities to apply technical expertise in MEAN stack, back-end and front-end programming, and mobile app development.",
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/Salama-Malek"
+    },
+    { 
+      "icon": "fa-brands:khamsat", 
+      "iconBgClass": "khamsat", 
+      "href": "https://khamsat.com/user/salamamalek" 
+    },
+    {
+      "icon": "fa-brands:linkedin-in",
+      "iconBgClass": "linkedin",
+      "href": "https://www.linkedin.com/in/salama-malek"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/about-banner.png",
+    "miniTitle": "About Me",
+    "title": "I AM AVAILABLE FOR <span>FULL STACK</span> PROJECTS",
+    "description": "ITI graduate and skilled Full Stack Web Developer with a passion for software development. Committed to delivering innovative solutions and fostering growth in dynamic and collaborative environments. I specialize in MEAN stack development, but I'm also proficient in other technologies like Laravel, Ruby on Rails, and Django.",
+    "funfacts": [
+      {
+        "title": "Programming Languages",
+        "number": 5
+      },
+      {
+        "title": "Years Experience",
+        "number": 2
+      },
+      {
+        "title": "Frameworks",
+        "number": 7
+      }
+    ],
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECTS"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/images/popup-project-1.jpg",
+        "title": "MEAN Stack Application",
+        "subTitle": "Web Development, Full Stack",
+        "details": {
+          "title": "E-commerce Platform using MEAN Stack",
+          "description": "Developed a full-featured e-commerce platform using MongoDB, Express.js, Angular, and Node.js. Implemented features including user authentication, product catalog, shopping cart, and payment processing integration.",
+          "type": "Web Application",
+          "langages": "JavaScript, TypeScript, HTML, CSS",
+          "platform": "MEAN Stack",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-2.jpg",
+        "title": "React Native Mobile App",
+        "subTitle": "Mobile Development, Front-End",
+        "details": {
+          "title": "Cross-platform Mobile Application",
+          "description": "Built a cross-platform mobile application using React Native that allows users to track their fitness goals, record workouts, and connect with fitness trainers.",
+          "type": "Mobile Application",
+          "langages": "JavaScript, React Native",
+          "platform": "iOS, Android",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-3.jpg",
+        "title": "Dashboard Design",
+        "subTitle": "Web Development, Front-End",
+        "details": {
+          "title": "Admin Dashboard for Content Management",
+          "description": "Created an intuitive admin dashboard using Angular for content management with features including user management, content creation, analytics, and reporting tools.",
+          "type": "Web Application",
+          "langages": "TypeScript, HTML, CSS, Angular",
+          "platform": "Web",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-4.jpg",
+        "title": "Laravel Web Application",
+        "subTitle": "Web Development, Back-End",
+        "details": {
+          "title": "Educational Platform with Laravel",
+          "description": "Developed an educational platform using Laravel that allows instructors to create courses, upload learning materials, and interact with students.",
+          "type": "Web Application",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "Laravel",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-5.jpg",
+        "title": "MERN Stack Blog",
+        "subTitle": "Web Development, Full Stack",
+        "details": {
+          "title": "Blog Platform using MERN Stack",
+          "description": "Created a blogging platform using MongoDB, Express.js, React, and Node.js with features including user authentication, content creation, commenting, and social sharing.",
+          "type": "Web Application",
+          "langages": "JavaScript, React, Node.js",
+          "platform": "MERN Stack",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-6.jpg",
+        "title": "WordPress Website",
+        "subTitle": "Web Development, CMS",
+        "details": {
+          "title": "Corporate Website using WordPress",
+          "description": "Designed and developed a corporate website using WordPress with custom themes and plugins to meet specific business requirements.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "Egypt",
+          "url": "www.example.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SERVICES",
+      "title": "Development <span>services</span> I am providing"
+    },
+    "allService": [
+      {
+        "imgUrl": "/images/service-01.jpg",
+        "title": "Full Stack Development",
+        "subTitle": "Expert in MEAN stack development, building complete web applications with MongoDB, Express.js, Angular, and Node.js.",
+        "icon": "bi:code-square",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-02.jpg",
+        "title": "Front-End Development",
+        "subTitle": "Creating responsive, interactive user interfaces using React, Angular, Vue.js, and other modern front-end technologies.",
+        "icon": "bi:laptop",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-03.jpg",
+        "title": "Mobile App Development",
+        "subTitle": "Building cross-platform mobile applications using React Native with focus on performance and user experience.",
+        "icon": "bi:phone",
+        "ratings": 4.5
+      },
+      {
+        "imgUrl": "/images/service-04.jpg",
+        "title": "Content Management",
+        "subTitle": "Implementing CMS solutions using WordPress with custom themes and plugins to meet specific client requirements.",
+        "icon": "bi:file-earmark-text",
+        "ratings": 4.5
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "Freelance Developer",
+        "company": "Khamsat | REMOTE",
+        "duration": "APRIL 2023 - PRESENT",
+        "jobType": "Freelance",
+        "companyTitle": "About Company",
+        "companyDescription": "Successfully completed various web development and software projects on Khamsat, providing tailored digital solutions to clients with a focus on quality, communication, and client satisfaction. Key contributions include collaborating with clients to understand requirements and deliver customized solutions, developing websites, applications, and other services across different technologies, and ensuring timely delivery and high client satisfaction through efficient processes and clear communication."
+      },
+      {
+        "designation": "Assistant Project Manager",
+        "company": "Intern in Moscow",
+        "duration": "NOV 2024 - JAN 2025",
+        "jobType": "Internship",
+        "companyTitle": "About Position",
+        "companyDescription": "Supported project management tasks, combining programming expertise with client communication to deliver IT solutions. Collaborated with teams to ensure project milestones were achieved efficiently and effectively."
+      },
+      {
+        "designation": "Freelance Coach",
+        "company": "EYOUTH Learning Company",
+        "duration": "DEC 2023 - JUN 2024",
+        "jobType": "Part-time",
+        "companyTitle": "About Position",
+        "companyDescription": "Conducted coaching sessions to enhance IT students' skills in programming and development frameworks, providing practical project guidance and career advice for job readiness."
+      }
+    ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Client <span>Feedback</span> <br /> FROM MY WORK"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "Salama delivered our web application on time and with exceptional quality. His expertise in the MEAN stack and ability to understand our business requirements resulted in a product that exceeded our expectations. Highly recommended for any web development project.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Ahmed Hassan",
+        "avatarCompany": "Tech Startup"
+      },
+      {
+        "reviewText": "Working with Salama was a great experience. He was responsive, professional, and attentive to details. His technical skills are impressive, and he was able to recommend solutions that we hadn't considered. We'll definitely work with him again on future projects.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Maria Ivanova",
+        "avatarCompany": "E-commerce Company"
+      },
+      {
+        "reviewText": "As a coach, Salama has helped many of our students develop practical skills that are highly valued in the industry. His teaching approach combines theory with hands-on projects, which has resulted in improved job placement rates for our graduates.",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Mahmoud Saleh",
+        "avatarCompany": "EYOUTH Learning"
+      }
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Let's Discuss Your Project",
+      "subTitle": "Available for freelancing if the right project comes along. Feel free to contact me to discuss your web development needs."
+    },
+    "contactImg": "/images/contact-us.png",
+    "contactInfo": [
+      { "title": "Write an e-mail", "email": "salamahassanein@gmail.com" },
+      { "title": "Call me directly", "tel": "+7 993 287 3992" }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <!-- Blue square background -->
+  <rect x="0" y="0" width="200" height="200" rx="0" fill="#0788FF" />
+  <!-- Letter S centered in square -->
+  <text x="100" y="115" text-anchor="middle" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="120" font-weight="700">S</text>
+  <!-- SALAMA text -->
+  <text x="230" y="115" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="120" font-weight="700">SALAMA</text>
+</svg>

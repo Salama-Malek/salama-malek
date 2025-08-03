@@ -1,0 +1,8 @@
+<svg width="180" height="35" viewBox="0 0 180 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue box with rounded corners -->
+  <rect width="35" height="35" rx="3" fill="#0788FF"/>
+  <!-- Reversed S inside the box, centered -->
+  <text x="17.5" y="25" text-anchor="middle" font-family="Rajdhani, Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="white" transform="scale(-1,1) translate(-35,0)">S</text>
+  <!-- SALAMA text, styled and positioned like the original JENNA -->
+  <text x="45" y="27" font-family="Rajdhani, Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="white" letter-spacing="2">SALAMA</text>
+</svg>
