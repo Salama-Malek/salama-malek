@@ -10,7 +10,7 @@
 
 <h3>Full-Stack Developer</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=7DD3FC&center=true&vCenter=true&width=820&lines=Building+scalable+systems;Designing+modern+web+architecture;Performance-first+engineering;Clean+code.+Clear+thinking." alt="Typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=7DD3FC&center=true&vCenter=true&width=920&lines=React%2C+TypeScript%2C+Node.js;Frontend+architecture+and+backend+integration;Scalable+systems+and+clean+code;Team+leadership%2C+mentoring%2C+and+delivery" alt="Typing animation" />
 
 <br />
 
@@ -25,15 +25,64 @@
 <h2 align="center">About</h2>
 
 <p align="center">
-  I build scalable software with a strong focus on performance, architecture, and clean, maintainable code.
-  My work is centered on modern web technologies, thoughtful system design, and a constant curiosity for
-  emerging tools that push engineering forward. &#9889;
+  Full Stack Developer with experience building scalable web applications using React, TypeScript, and Node.js.
+  I work across frontend architecture, backend development, and system integration with a strong focus on
+  performance, maintainability, and clean engineering standards. &#9889;
 </p>
 
 <p align="center">
-  I enjoy turning complex ideas into reliable products, shaping developer-friendly systems, and refining the
-  details that make software feel fast, solid, and intentional.
+  My background includes agile delivery, cross-functional collaboration, technical leadership, and mentoring.
+  I enjoy turning complex product requirements into reliable digital experiences while staying curious about
+  emerging technologies that improve how modern teams build software.
 </p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=2&section=header" width="100%" alt="Separator" />
+</p>
+
+<h2 align="center">Experience Snapshot</h2>
+
+<div align="center">
+
+<p>
+  <strong>Frontend Team Leader</strong><br />
+  Informa Core Technologies | February 2025 - January 2026<br />
+  <sub>Led scalable web platform delivery, aligned frontend execution with backend teams, and shipped high-performance user-focused solutions.</sub>
+</p>
+
+<p>
+  <strong>Assistant Project Manager</strong><br />
+  ITSPORTS | November 2024 - January 2025<br />
+  <sub>Supported project coordination, client onboarding, and communication between technical teams and stakeholders.</sub>
+</p>
+
+<p>
+  <strong>Freelance Coach</strong><br />
+  EYouth | October 2024 - December 2024<br />
+  <sub>Mentored graduates in software development, AI, freelancing, and career readiness.</sub>
+</p>
+
+</div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=2&section=header" width="100%" alt="Separator" />
+</p>
+
+<h2 align="center">Education</h2>
+
+<div align="center">
+
+<p>
+  <strong>Master's Degree - Communication & International Public Relations</strong><br />
+  National University of Science and Technology (MISIS) | 2023 - 2025
+</p>
+
+<p>
+  <strong>Diploma - Open Source Applications Development</strong><br />
+  Information Technology Institute (ITI) | 2022 - 2023
+</p>
+
+</div>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=2&section=header" width="100%" alt="Separator" />
@@ -50,6 +99,12 @@
 <img src="https://img.shields.io/badge/Vite-0f172a?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
 <img src="https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
 <img src="https://img.shields.io/badge/Next.js-0f172a?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
+<img src="https://img.shields.io/badge/Angular-0f172a?style=for-the-badge&logo=angular&logoColor=DD0031" alt="Angular" />
+<img src="https://img.shields.io/badge/Vue.js-0f172a?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+<img src="https://img.shields.io/badge/JavaScript-0f172a?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/HTML5-0f172a?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-0f172a?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+<img src="https://img.shields.io/badge/React%20Native-0f172a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
 
 <h3>Backend</h3>
 
@@ -57,12 +112,19 @@
 <img src="https://img.shields.io/badge/Express-0f172a?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express" />
 <img src="https://img.shields.io/badge/REST%20APIs-0f172a?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="REST APIs" />
 <img src="https://img.shields.io/badge/WebSockets-0f172a?style=for-the-badge&logo=socketdotio&logoColor=ffffff" alt="WebSockets" />
+<img src="https://img.shields.io/badge/PHP-0f172a?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP" />
+<img src="https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/Java-0f172a?style=for-the-badge&logo=openjdk&logoColor=ffffff" alt="Java" />
+<img src="https://img.shields.io/badge/C%2B%2B-0f172a?style=for-the-badge&logo=c%2B%2B&logoColor=00599C" alt="C++" />
+<img src="https://img.shields.io/badge/Bash-0f172a?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash" />
 
 <h3>Database</h3>
 
 <img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/MongoDB-0f172a?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
 <img src="https://img.shields.io/badge/Prisma-0f172a?style=for-the-badge&logo=prisma&logoColor=ffffff" alt="Prisma" />
+<img src="https://img.shields.io/badge/SQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=8DD6F9" alt="SQL" />
+<img src="https://img.shields.io/badge/NoSQL-0f172a?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="NoSQL" />
 
 <h3>DevOps</h3>
 
@@ -70,6 +132,14 @@
 <img src="https://img.shields.io/badge/Linux-0f172a?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
 <img src="https://img.shields.io/badge/Nginx-0f172a?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
 <img src="https://img.shields.io/badge/GitHub%20Actions-0f172a?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Agile%2FScrum-0f172a?style=for-the-badge&logo=jira&logoColor=0052CC" alt="Agile Scrum" />
+<img src="https://img.shields.io/badge/Red%20Hat-0f172a?style=for-the-badge&logo=redhat&logoColor=EE0000" alt="Red Hat" />
+<img src="https://img.shields.io/badge/Cybersecurity-0f172a?style=for-the-badge&logo=letsencrypt&logoColor=003A70" alt="Cybersecurity Fundamentals" />
+
+<h3>Platforms</h3>
+
+<img src="https://img.shields.io/badge/WordPress-0f172a?style=for-the-badge&logo=wordpress&logoColor=21759B" alt="WordPress" />
+<img src="https://img.shields.io/badge/Odoo-0f172a?style=for-the-badge&logo=odoo&logoColor=714B67" alt="Odoo" />
 
 </div>
 
@@ -126,6 +196,9 @@
 <a href="https://github.com/salama-malek">
   <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
 </a>
+<a href="mailto:salamahassanein@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+</a>
 <a href="https://salama.sm4tech.com/">
   <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=34A853" alt="Portfolio" />
 </a>
@@ -143,3 +216,7 @@
 </a>
 
 </div>
+
+<p align="center">
+  <sub>+7 (993) 287-39-92 | salamahassanein@gmail.com</sub>
+</p>
