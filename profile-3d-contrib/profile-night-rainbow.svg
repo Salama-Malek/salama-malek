@@ -1,0 +1,69 @@
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">3D contribution graph placeholder</title>
+  <desc id="desc">SM4Tech-style placeholder shown until the GitHub Actions workflow generates the live 3D contribution graph.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0A0F"/>
+      <stop offset="0.5" stop-color="#111118"/>
+      <stop offset="1" stop-color="#09111D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="177" y1="38" x2="728" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 84) rotate(36.34) scale(158.396 116.453)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(680 208) rotate(27.96) scale(180.093 126.615)">
+      <stop stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="280" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="278" rx="27" stroke="url(#accent)" stroke-opacity="0.2"/>
+  <rect x="40" y="36" width="820" height="208" rx="22" fill="#0D1320"/>
+  <rect x="40" y="36" width="820" height="208" rx="22" stroke="url(#accent)" stroke-opacity="0.12"/>
+  <ellipse cx="210" cy="84" rx="170" ry="120" fill="url(#glowLeft)"/>
+  <ellipse cx="680" cy="208" rx="190" ry="130" fill="url(#glowRight)"/>
+  <g opacity="0.22">
+    <path d="M88 82H812" stroke="white" stroke-width="1"/>
+    <path d="M88 116H812" stroke="white" stroke-width="1"/>
+    <path d="M88 150H812" stroke="white" stroke-width="1"/>
+    <path d="M88 184H812" stroke="white" stroke-width="1"/>
+    <path d="M88 218H812" stroke="white" stroke-width="1"/>
+    <path d="M126 62V218" stroke="white" stroke-width="1"/>
+    <path d="M198 62V218" stroke="white" stroke-width="1"/>
+    <path d="M270 62V218" stroke="white" stroke-width="1"/>
+    <path d="M342 62V218" stroke="white" stroke-width="1"/>
+    <path d="M414 62V218" stroke="white" stroke-width="1"/>
+    <path d="M486 62V218" stroke="white" stroke-width="1"/>
+    <path d="M558 62V218" stroke="white" stroke-width="1"/>
+    <path d="M630 62V218" stroke="white" stroke-width="1"/>
+    <path d="M702 62V218" stroke="white" stroke-width="1"/>
+    <path d="M774 62V218" stroke="white" stroke-width="1"/>
+  </g>
+  <g>
+    <rect x="126" y="150" width="44" height="34" rx="8" fill="#1E293B"/>
+    <rect x="176" y="132" width="44" height="52" rx="8" fill="#312E81"/>
+    <rect x="226" y="110" width="44" height="74" rx="8" fill="#5B21B6"/>
+    <rect x="276" y="92" width="44" height="92" rx="8" fill="#7C3AED"/>
+    <rect x="326" y="120" width="44" height="64" rx="8" fill="#2563EB"/>
+    <rect x="376" y="102" width="44" height="82" rx="8" fill="#0EA5E9"/>
+    <rect x="426" y="82" width="44" height="102" rx="8" fill="#06B6D4"/>
+    <rect x="476" y="116" width="44" height="68" rx="8" fill="#155E75"/>
+    <rect x="526" y="98" width="44" height="86" rx="8" fill="#8B5CF6"/>
+    <rect x="576" y="128" width="44" height="56" rx="8" fill="#1D4ED8"/>
+    <rect x="626" y="144" width="44" height="40" rx="8" fill="#1E293B"/>
+    <rect x="676" y="112" width="44" height="72" rx="8" fill="#0891B2"/>
+  </g>
+  <text x="88" y="108" fill="#E2E8F0" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="700">
+    3D contribution graph is generating
+  </text>
+  <text x="88" y="142" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="500">
+    The workflow will replace this SM4Tech-style placeholder after the first run.
+  </text>
+  <text x="88" y="206" fill="#7DD3FC" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" letter-spacing="0.22em">
+    VIOLET TO CYAN / DARK GLASS / LIVE GITHUB RENDER
+  </text>
+</svg>
