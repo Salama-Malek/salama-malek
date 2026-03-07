@@ -197,9 +197,9 @@
 </div>
 
 <!--START_SECTION:activity-->
-1. Preparing live activity feed...
-2. Push this repository and run the README activity workflow once.
-3. Recent GitHub events will appear here automatically.
+1. 🎉 Merged PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
+2. ℹ️ Labeled PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
+3. 💪 Opened PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
 <!--END_SECTION:activity-->
 
 <p align="center">
