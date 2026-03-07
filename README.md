@@ -156,12 +156,16 @@
 <h2 align="center">GitHub Stats</h2>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=salama-malek&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salama-malek&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=salama-malek&theme=tokyonight" alt="GitHub stats" />
 </div>
 
 <div align="center">
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=salama-malek&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salama-malek&theme=tokyonight" alt="Top languages by repository" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salama-malek&theme=tokyonight" alt="Top languages by commits" />
 </div>
 
 <p align="center">
