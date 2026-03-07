@@ -1,0 +1,26 @@
+name: Update README Activity Feed
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Update recent activity
+        uses: jamesgeorge007/github-activity-readme@master
+        with:
+          COMMIT_MSG: "build: update activity feed"
+          MAX_LINES: 8
+          TARGET_FILE: README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

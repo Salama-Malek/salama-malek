@@ -1,0 +1,34 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%238b5cf6&color_dots=%230a0a0f,%23111118,%2306b6d4,%2338bdf8,%23a855f7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%238b5cf6&color_dots=%230a0a0f,%23111118,%2306b6d4,%2338bdf8,%23a855f7
+
+      - name: Publish snake assets
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          full_commit_message: "build: update contribution snake"
