@@ -201,9 +201,9 @@
 </div>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
-2. ℹ️ Labeled PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
-3. 💪 Opened PR [#32](https://github.com/Salama-Malek/bible-reading-companion/pull/32) in [Salama-Malek/bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
+1. 🎉 Merged PR [#2](https://github.com/Salama-Malek/coptic-moscow-app/pull/2) in [Salama-Malek/coptic-moscow-app](https://github.com/Salama-Malek/coptic-moscow-app)
+2. 💪 Opened PR [#2](https://github.com/Salama-Malek/coptic-moscow-app/pull/2) in [Salama-Malek/coptic-moscow-app](https://github.com/Salama-Malek/coptic-moscow-app)
+3. 🎉 Merged PR [#1](https://github.com/Salama-Malek/coptic-moscow-app/pull/1) in [Salama-Malek/coptic-moscow-app](https://github.com/Salama-Malek/coptic-moscow-app)
 <!--END_SECTION:activity-->
 
 <p align="center">
