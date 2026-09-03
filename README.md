@@ -1,14 +1,15 @@
 <div align="center">
-  <img src="./assets/sm4tech-logo.png" width="96" alt="SM4Tech mark" />
+  <img src="./assets/sm4tech-logo.png" width="88" alt="SM4Tech mark" />
 
   <h1>Salama Malek</h1>
 
-  <p><strong>Full-stack developer</strong> &nbsp;·&nbsp; Moscow, Russia</p>
+  <p><strong>Full-stack developer</strong> · infrastructure, developer tools and multilingual products · Moscow</p>
 
   <p>
-    I build developer tools and production web platforms.<br />
-    Currently at <strong>NodeMaven</strong>, working on proxy infrastructure,
-    measurement tooling and WordPress at scale.
+    I work on proxy and network infrastructure at <strong>NodeMaven</strong>, and I ship
+    products in four writing systems.<br />
+    The work I am proudest of measures something and then publishes what it measured,
+    including the parts that did not go my way.
   </p>
 
   <p>
@@ -19,125 +20,190 @@
       <img src="https://img.shields.io/badge/Email-111118?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
     </a>
   </p>
+
+  <img src="./assets/at-a-glance.svg" width="880" alt="23 projects shipped since 2022, 4 writing systems, 6 product domains, 50 tests in CI" />
 </div>
 
-<!-- Portfolio and SM4TECH links removed on 2026-09-03: sm4tech.com currently
-     resolves to a Hostinger parking page and has no working TLS, and
-     salama.sm4tech.com has no DNS record at all. Restore this block once the
-     host is renewed or the domain is replaced, not before - a dead link in the
-     header costs more than a missing one.
-
-    <a href="https://salama.sm4tech.com/">
-      <img src="https://img.shields.io/badge/Portfolio-111118?style=for-the-badge&logo=googlechrome&logoColor=34A853" alt="Portfolio" />
-    </a>
-    <a href="https://sm4tech.com/">
-      <img src="https://img.shields.io/badge/SM4TECH-111118?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="SM4TECH" />
-    </a>
--->
+<!-- Portfolio and SM4TECH links removed on 2026-09-03: sm4tech.com resolves to a
+     Hostinger parking page with no working TLS, and salama.sm4tech.com has no DNS
+     record. Restore once the host is renewed or the domain replaced. -->
 
 ---
 
-## Selected work
+## Featured work
 
-Six projects that show what I actually build, rather than a list of things I have heard of.
+### [connection-checker](https://github.com/nodemaven/connection-checker) · open source, MIT
 
-### [nodemaven/connection-checker](https://github.com/nodemaven/connection-checker)
+**Is your proxy actually hiding you?** A leak-detection tool that catches what a proxy
+quietly fails to cover: WebRTC over STUN and TURN, HTTP/3 over QUIC, and addresses the
+browser reports but the network contradicts.
 
-**Is your proxy actually hiding you?** An open-source leak-detection tool that catches
-what a proxy quietly fails to cover: WebRTC over STUN and TURN, HTTP/3 over QUIC, and
-addresses the browser reports but the network contradicts.
+The design rule is that **it never trusts the browser**. Every channel also has a
+server-side observation, and a leak is defined as the disagreement between the two.
 
-The design rule is that it never trusts the browser. Every channel also has a
-server-side observation, and a leak is the disagreement between the two. Four
-containerised services behind a single `docker compose up`, 50 tests across a CI
-matrix, MIT licensed and self-hostable end to end. Observations are keyed to a random
-token and expire after 120 seconds, which the README states plainly along with the
-things the tool deliberately does **not** check.
+```mermaid
+flowchart LR
+    B["Browser<br/><i>claims an identity</i>"]
+
+    subgraph SRV ["Server side: what is actually observed"]
+        direction TB
+        C["credentials<br/><i>mints 120s TURN creds</i>"]
+        T["coturn + stun-observe<br/><i>records the real UDP source</i>"]
+        R["turn-readback<br/><i>read-only view of the relay</i>"]
+        H["http3-probe<br/><i>QUIC support and exit IP</i>"]
+    end
+
+    B -->|asks for credentials| C
+    B -->|WebRTC / STUN / TURN| T
+    B -->|HTTP/3 over QUIC| H
+    T --> R
+    R --> V{compare}
+    H --> V
+    V -->|they disagree| LEAK["Leak: a real address escaped"]
+    V -->|they match| OK["Clean on the measured channels"]
+```
+
+Four containerised services behind one `docker compose up`, **50 tests across a CI
+matrix**, self-hostable end to end. Observations are keyed to a random token and expire
+after 120 seconds, which the README states plainly, alongside the things the tool
+deliberately does **not** check. A leak-detection tool that only lists its wins is not
+one you should trust.
 
 `Python` `Flask` `coturn` `WebRTC` `QUIC` `Docker` `vanilla JS`
 
-### [astoria](https://github.com/Salama-Malek/astoria)
+---
 
-Cinematic bilingual (RU/EN) single-page site for a Moscow photo and print shop trading
-since 2010. Pure black voids with CMYK glow accents, a printer and press that morph
-through the hero, and a GSAP-pinned showcase that walks paper through each production
-stage.
+### [AI Receptionist](https://github.com/Salama-Malek/AI_RECEPTIONIST)
 
-`TypeScript` `GSAP` `i18n`
+An AI voice receptionist that answers calls, holds a conversation, and **acts while the
+call is still in progress**. The conversation module runs function-calling against a
+task layer, so a call can create a record or fire a notification before it ends, then
+hand off to a human when it should.
 
-### [coptic-moscow](https://github.com/Salama-Malek/coptic-moscow)
+NestJS organised by domain rather than by file type: `telephony` (Twilio webhooks),
+`conversation` (AI client, prompts, function calls), `tasks`, `calls`, `notifications`
+(Telegram and email), `database` (Prisma over PostgreSQL). Every boundary has a
+`class-validator` DTO, so malformed telephony payloads are rejected at the edge rather
+than deep in a service.
 
-Trilingual (Arabic / Russian / English) parish notification app, built as a monorepo.
-Clergy send announcements, voice messages and live-stream alerts to the congregation.
-Right-to-left and left-to-right layouts in the same product, which is the interesting
-constraint.
-
-`TypeScript` `monorepo` `RTL`
-
-### [MySilentPlan](https://github.com/Salama-Malek/MySilentPlan)
-
-Expo and React Native personal productivity suite: planner, goals and streaks,
-exercise, language practice and reading, in one application rather than six.
-
-`React Native` `Expo` `TypeScript`
-
-### [moneymate-mini](https://github.com/Salama-Malek/moneymate-mini)
-
-React Native tracker for money lent and borrowed. Multi-currency, reminder
-notifications, and every record stored locally on the device, so the app needs no
-account and no server.
-
-`React Native` `offline-first` `TypeScript`
-
-### [bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
-
-Daily reading plans for a church youth group, with reminders, confirmations, streak
-history and analytics for the group leader.
-
-`TypeScript` `notifications`
+`NestJS` `TypeScript` `Prisma` `PostgreSQL` `Twilio`
 
 ---
 
-## Experience
+### [bible-reading-companion](https://github.com/Salama-Malek/bible-reading-companion)
 
-**Full-Stack Developer** — NodeMaven · 2026 to present
+My most sustained project at **68 commits**. Daily reading plans for a church youth
+group, with reminders, confirmations, streak history and analytics for the leader.
+Polyglot by necessity rather than fashion: TypeScript, PHP, Python and shell all earn
+their place in the delivery path.
+
+`TypeScript` `PHP` `Python` `Shell`
+
+---
+
+### Coptic Moscow parish platform <sub>private repository</sub>
+
+Notification platform in **Arabic, Russian and English**, built as a monorepo. Clergy
+send announcements, voice messages and live-stream alerts to the congregation.
+
+The real constraint is not translation, it is direction: Arabic flips the layout, and
+the same components have to hold in right-to-left and left-to-right without a separate
+codebase. 22 commits, and the reason I will argue about bidirectional CSS.
+
+Source is private at the parish's request, so there is no link here rather than a link
+that 404s. Happy to walk through the architecture.
+
+`TypeScript` `monorepo` `RTL`
+
+---
+
+### [astoria](https://github.com/Salama-Malek/astoria)
+
+Cinematic bilingual site for a Moscow photo and print shop trading since 2010. Pure
+black voids with CMYK glow accents, a printer and press that morph through the hero,
+and a GSAP-pinned showcase that walks a sheet of paper through every production stage.
+
+`TypeScript` `GSAP` `i18n`
+
+---
+
+## Also shipped
+
+| Project | What it is | Stack |
+|---|---|---|
+| [sa-online-school](https://github.com/Salama-Malek/sa-online-school) | Online school site in Arabic, English and Russian, with persistent theme and consent state | React · Vite · Tailwind |
+| [Sarah-Gerges](https://github.com/Salama-Malek/Sarah-Gerges) | Client portfolio site | TypeScript |
+| [MySilentPlan](https://github.com/Salama-Malek/MySilentPlan) | Planner, goals, streaks, exercise and reading in one app | React Native · Expo |
+| [moneymate-mini](https://github.com/Salama-Malek/moneymate-mini) | Lending and borrowing tracker, multi-currency, entirely on-device | React Native |
+| [IntervueAI](https://github.com/Salama-Malek/IntervueAI) | AI-assisted interview practice | React · TanStack Query · Express |
+| [taskflow-manager](https://github.com/Salama-Malek/taskflow-manager) | Kanban board with drag-and-drop and i18n | dnd-kit · Framer Motion |
+
+---
+
+## Breadth
+
+<div align="center">
+  <img src="./assets/domains.svg" width="880" alt="Projects by domain: developer utilities 7, business and commerce sites 6, mobile and productivity 4, community platforms 3, AI and conversational systems 2, infrastructure and networking 1" />
+</div>
+
+Counts show range, not weight. The single infrastructure project is the one I would put
+in front of an interviewer first.
+
+### Delivery in four writing systems
+
+Localisation is usually where a codebase's assumptions break. These shipped in more than one:
+
+| Project | Languages | The hard part |
+|---|---|---|
+| Coptic Moscow <sub>private</sub> | Arabic · Russian · English | RTL and LTR sharing one component tree |
+| sa-online-school | Arabic · English · Russian | Direction flip plus persisted theme and consent |
+| astoria | Russian · English | Copy length changes breaking a pinned scroll animation |
+| NodeMaven platform | English · Russian · Chinese | CJK metrics overflowing boxes tuned for Latin capitals |
+
+---
+
+## Trajectory
+
+<div align="center">
+  <img src="./assets/trajectory.svg" width="880" alt="2022 ITI diploma, 2023 first production work, 2024 Assistant PM at ITSPORTS, 2025 Frontend Team Leader at Informa Core Technologies, 2026 full stack at NodeMaven" />
+</div>
+
+**Full-Stack Developer**, NodeMaven · 2026 to present
 Proxy infrastructure and open-source measurement tooling, plus a large WordPress
-platform: custom SiteOrigin widgets, structured data, performance and multilingual
-delivery across English, Russian and Chinese.
+platform: custom widgets, structured data, performance and trilingual delivery.
 
-**Frontend Team Leader** — Informa Core Technologies · Feb 2025 to Jan 2026
-Led frontend delivery for scalable web platforms and coordinated with backend teams
-on user-facing systems.
+**Frontend Team Leader**, Informa Core Technologies · Feb 2025 to Jan 2026
+Led frontend delivery for scalable web platforms and coordinated with backend teams.
 
-**Assistant Project Manager** — ITSPORTS · Nov 2024 to Jan 2025
-Project coordination and stakeholder communication between technical teams and clients.
+**Assistant Project Manager**, ITSPORTS · Nov 2024 to Jan 2025 &nbsp;·&nbsp;
+**Freelance Coach**, EYouth · Oct 2024 to Dec 2024
 
-**Freelance Coach** — EYouth · Oct 2024 to Dec 2024
-Mentored graduates in software development, AI and career readiness.
+**Education**: MSc Communication and International PR, MISIS (2023–2025) · Diploma in
+Open Source Applications Development, ITI (2022–2023)
 
 ---
 
 ## Stack
 
-I work in a lot of ecosystems, but these are the ones I would defend in an interview:
+I have shipped in more languages than this. These are the ones I would defend in an interview:
 
 | | |
 |---|---|
 | **Core** | TypeScript · React · Node.js · Python |
-| **Frontend** | Next.js · Vite · Tailwind · React Native / Expo |
-| **Backend** | Flask · Express · REST · WebSockets · PostgreSQL · MongoDB |
+| **Frontend** | Next.js · Vite · Tailwind · React Native / Expo · GSAP |
+| **Backend** | NestJS · Flask · Express · Prisma · PostgreSQL · MongoDB |
 | **Platform** | Docker · Linux · Nginx · GitHub Actions · WordPress |
 
-Also shipped production work in PHP, Java and C++, and comfortable in Bash and on
-Red Hat, but I would not claim those as my strengths today.
+Production work also in PHP, Java and C++, and comfortable in Bash and on Red Hat,
+but I would not claim those as current strengths.
 
 ---
 
-## Currently
+## What I care about
 
-- Building measurement and leak-detection tooling that publishes its own limitations, not just its wins.
-- Working on proxy and network infrastructure where the interesting bugs live below HTTP.
-- Reducing friction in delivery: CI that tells the truth, docs whose quickstart actually runs.
+- Measurement over assertion. If a tool makes a claim, the run behind it should be public.
+- Documenting limits. The section listing what a tool cannot do is the one that earns trust.
+- Quickstarts that actually run. A README whose first command fails costs more than a missing README.
 
 ---
 
