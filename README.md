@@ -131,12 +131,15 @@ and a GSAP-pinned showcase that walks a sheet of paper through every production 
 
 | Project | What it is | Stack |
 |---|---|---|
+| [ReqFlow](https://github.com/Salama-Malek/ReqFlow) | Requirements and project tracking with Kanban, Gantt, reporting and live notifications | React · Express · MongoDB · Socket.IO |
+| [marmarkos-shamamsa](https://github.com/Salama-Malek/marmarkos-shamamsa) | Deacon roster and liturgy assignments with Excel and PDF export, Arabic RTL | Expo Router · SQLite |
+| [moneymate-mini](https://github.com/Salama-Malek/moneymate-mini) | Lending and borrowing tracker, multi-currency, entirely on-device | React Native · Zustand |
+| [IntervueAI](https://github.com/Salama-Malek/IntervueAI) | Voice-first mock interviews with heuristic scoring and an optional REST backend | React · Web Speech API · Express |
+| [taskflow-manager](https://github.com/Salama-Malek/taskflow-manager) | Kanban board with drag-and-drop, statistics and three-language UI | dnd-kit · i18next · Tailwind |
 | [sa-online-school](https://github.com/Salama-Malek/sa-online-school) | Online school site in Arabic, English and Russian, with persistent theme and consent state | React · Vite · Tailwind |
-| [Sarah-Gerges](https://github.com/Salama-Malek/Sarah-Gerges) | Client portfolio site | TypeScript |
-| [MySilentPlan](https://github.com/Salama-Malek/MySilentPlan) | Planner, goals, streaks, exercise and reading in one app | React Native · Expo |
-| [moneymate-mini](https://github.com/Salama-Malek/moneymate-mini) | Lending and borrowing tracker, multi-currency, entirely on-device | React Native |
-| [IntervueAI](https://github.com/Salama-Malek/IntervueAI) | AI-assisted interview practice | React · TanStack Query · Express |
-| [taskflow-manager](https://github.com/Salama-Malek/taskflow-manager) | Kanban board with drag-and-drop and i18n | dnd-kit · Framer Motion |
+| [image-color-extractor](https://github.com/Salama-Malek/image-color-extractor) | Dominant palette from any image, sampled on canvas, no server | React · Canvas |
+| [RetroHack-Salama-Edition](https://github.com/Salama-Malek/RetroHack-Salama-Edition) | CRT-style typing game with randomised pop-up distractions | React · Vite |
+| [MySilentPlan](https://github.com/Salama-Malek/MySilentPlan) | Productivity app foundation: Expo Router shell, SQLite with versioned migrations | React Native · Expo |
 
 ---
 
